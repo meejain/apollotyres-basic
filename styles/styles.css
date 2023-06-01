@@ -16,7 +16,7 @@
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
+  --highlight-background-color: red;
   --text-color: #000;
 
   /* fonts */
@@ -240,4 +240,5 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+  /*background-image: "https://www.apollotyres.com/content/dam/orbit/apollo-tyres-en-in/home-page/home-splash-screen.jpg/jcr:content/renditions/cq5dam.thumbnail.1920.1024.jpeg";*/
 }

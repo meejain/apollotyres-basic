@@ -16,3 +16,5 @@ export default function decorate(block) {
   block.textContent = '';
   block.append(ul);
 }
+
+document.querySelector(".cards-container").style.backgroundImage = "url('https://www.apollotyres.com/content/dam/orbit/apollo-tyres-en-in/home-page/home-splash-screen.jpg/jcr:content/renditions/cq5dam.thumbnail.1920.1024.jpeg')";
