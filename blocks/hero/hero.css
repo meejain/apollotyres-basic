@@ -11,7 +11,7 @@ main .hero-container {
 main .hero {
   position: relative;
   padding: 32px;
-  min-height: 600px;
+  min-height: 700px;
 }
 
 main .hero h1 {
@@ -50,7 +50,7 @@ main .hero img {
   display: flex;
   background-color:#5c2d91;
   width:450px;
-  height:550px;
+  height:600px;
   top: 5px;
   left: 200px;
   border-radius: 10px 10px 50px 10px;
