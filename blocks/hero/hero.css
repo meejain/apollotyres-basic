@@ -11,7 +11,7 @@ main .hero-container {
 main .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  min-height: 600px;
 }
 
 main .hero h1 {
@@ -28,7 +28,6 @@ main .hero picture {
   left: 0;
   bottom: 0;
   right: 0;
-  object-fit: cover;
   box-sizing: border-box;
 }
 
@@ -50,8 +49,8 @@ main .hero img {
   position: relative;
   display: flex;
   background-color:#5c2d91;
-  width:250px;
-  height:320px;
+  width:450px;
+  height:550px;
   top: 5px;
   left: 200px;
   border-radius: 10px 10px 50px 10px;
@@ -62,7 +61,7 @@ main .hero img {
   position: absolute;
   font-family: ApolloFlama;
   font-style: italic;
-  font-size: 1.2em;
+  font-size: 2.2em;
   padding:5px;
   margin-top:1px;
   color:white;
@@ -75,10 +74,10 @@ main .hero img {
   margin-top: 0px;
   color: white;
   margin-left:40px;
-  font-size: .6em;
+  font-size: 1em;
   font-family: Roboto;
   margin-left:10px;
-  top:110px;
+  top:220px;
 }
 
 .container-myflex {
