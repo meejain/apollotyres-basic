@@ -98,7 +98,8 @@ main .hero img {
   margin-left: 200px;
   color: white;
   margin-bottom: 0px;
-  width:70px;
+  width:230px;
+  padding-top:20px;
   padding-left: 150px;
   padding-right: 0px;
 }
