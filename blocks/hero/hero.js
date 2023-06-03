@@ -20,6 +20,7 @@ elementnode.appendChild(elementnode1);
 
 
 var elementnode2=document.createElement('p');
+elementnode2.setAttribute('class', 'para1');
 var textnode2=document.createTextNode('Choose a category to find the perfect tyre for your vehicle');
 elementnode2.appendChild(textnode2);
 elementnode.appendChild(elementnode2);
@@ -46,11 +47,9 @@ flexelementnode1a.setAttribute('class', 'vehicle-category');
 flexelementnode1a.setAttribute('href', 'https://www.apollotyres.com/en-in/car-suv-tyres/');
 flexelementnode1.appendChild(flexelementnode1a);
 
-
-
 var flexelementnode1p=document.createElement('p');
-flexelementnode1p.setAttribute('class', 'vehicle-category-label');
-var flextextnode1p=document.createTextNode('Car, SUV & Van');
+flexelementnode1p.setAttribute('class', 'vehicle-category-label1');
+var flextextnode1p=document.createTextNode('Car1, SUV1 & Van1');
 flexelementnode1p.appendChild(flextextnode1p);
 flexelementnode1a.appendChild(flexelementnode1p);
 
@@ -58,19 +57,22 @@ flexelementnode1a.appendChild(flexelementnode1p);
 
 
 
+var flexelementnode2=document.createElement('div');
+var flexattributenode2=document.createAttribute('class');
+flexattributenode2.value="item";
+flexelementnode2.setAttributeNode(flexattributenode2);
+elementnode3.appendChild(flexelementnode2);
 
+var flexelementnode2a=document.createElement('a');
+flexelementnode2a.setAttribute('class', 'vehicle-category');
+flexelementnode2a.setAttribute('href', 'https://www.apollotyres.com/en-in/car-suv-tyres/');
+flexelementnode1.appendChild(flexelementnode2a);
 
-
-
-
-
-
-
-
-
-
-
-
+var flexelementnode2p=document.createElement('p');
+flexelementnode2p.setAttribute('class', 'vehicle-category-label2');
+var flextextnode2p=document.createTextNode('Car2, SUV2 & Van2');
+flexelementnode2p.appendChild(flextextnode2p);
+flexelementnode2a.appendChild(flexelementnode2p);
 
 
 
