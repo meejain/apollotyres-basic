@@ -82,7 +82,7 @@ main .hero img {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 250px;
+  top: 300px;
 }
 
 .item {
