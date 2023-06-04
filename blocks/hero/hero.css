@@ -91,6 +91,18 @@ main .hero img {
   font-size: medium;
 }
 
+
+.vehicle-category > .svg-img {
+  position:absolute;
+  height: 40px;
+  width: 45px;
+  margin-left: 60px;
+  margin-top: 6px;
+  border: 4px solid;
+  border-color: #5c2d91 #5c2d91 #f15a22 #5c2d91;
+}
+
+
  .vehicle-category-label{
   border-bottom: 2px solid #000; 
   margin-left: 200px;
@@ -102,14 +114,6 @@ main .hero img {
   padding-right: 0px;
   text-align: right;
   margin-left:60px;
+  
 }
 
-
-
-.vehicle-icons {
-  background-image: url(https://icons8.com/icon/59751/car);
-  color:white;
-  height: 30px;
-  width: 30px;
-  margin-bottom:5px;
-}

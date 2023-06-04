@@ -47,11 +47,20 @@ flexelementnode1a.setAttribute('class', 'vehicle-category');
 flexelementnode1a.setAttribute('href', 'https://www.apollotyres.com/en-in/car-suv-tyres/');
 flexelementnode1.appendChild(flexelementnode1a);
 
+var flexelementnode1img=document.createElement('img');
+flexelementnode1img.setAttribute('class', 'svg-img');
+flexelementnode1img.setAttribute('src', '../icons/icons8-car-50.png');
+flexelementnode1a.appendChild(flexelementnode1img);
+
 var flexelementnode1p=document.createElement('p');
 flexelementnode1p.setAttribute('class', 'vehicle-category-label');
 var flextextnode1p=document.createTextNode('CAR, SUV & VAN');
 flexelementnode1p.appendChild(flextextnode1p);
 flexelementnode1a.appendChild(flexelementnode1p);
+
+
+
+
 
 
 
