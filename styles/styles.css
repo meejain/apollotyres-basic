@@ -148,7 +148,7 @@ a.button:any-link, button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
