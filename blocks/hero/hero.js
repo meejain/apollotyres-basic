@@ -62,10 +62,6 @@ flexelementnode1a.appendChild(flexelementnode1p);
 
 
 
-
-
-
-
 var flexelementnode2=document.createElement('div');
 var flexattributenode2=document.createAttribute('class');
 flexattributenode2.value="item";
@@ -77,13 +73,16 @@ flexelementnode2a.setAttribute('class', 'vehicle-category');
 flexelementnode2a.setAttribute('href', 'https://www.apollotyres.com/en-in/bike-scooter-tyres/');
 flexelementnode2.appendChild(flexelementnode2a);
 
+var flexelementnode2img=document.createElement('img');
+flexelementnode2img.setAttribute('class', 'svg-img');
+flexelementnode2img.setAttribute('src', '../icons/icons8-bike-80.png');
+flexelementnode2a.appendChild(flexelementnode2img);
+
 var flexelementnode2p=document.createElement('p');
 flexelementnode2p.setAttribute('class', 'vehicle-category-label');
 var flextextnode2p=document.createTextNode('BIKE & SCOOTER');
 flexelementnode2p.appendChild(flextextnode2p);
 flexelementnode2a.appendChild(flexelementnode2p);
-
-
 
 
 
@@ -99,6 +98,11 @@ var flexelementnode3a=document.createElement('a');
 flexelementnode3a.setAttribute('class', 'vehicle-category');
 flexelementnode3a.setAttribute('href', 'https://www.apollotyres.com/en-in/agricultural-tyres/');
 flexelementnode3.appendChild(flexelementnode3a);
+
+var flexelementnode3img=document.createElement('img');
+flexelementnode3img.setAttribute('class', 'svg-img');
+flexelementnode3img.setAttribute('src', '../icons/icons8-tractor-60.png');
+flexelementnode3a.appendChild(flexelementnode3img);
 
 var flexelementnode3p=document.createElement('p');
 flexelementnode3p.setAttribute('class', 'vehicle-category-label');
@@ -121,11 +125,17 @@ flexelementnode4a.setAttribute('class', 'vehicle-category');
 flexelementnode4a.setAttribute('href', 'https://www.apollotyres.com/en-in/bike-scooter-tyres/');
 flexelementnode4.appendChild(flexelementnode4a);
 
+var flexelementnode4img=document.createElement('img');
+flexelementnode4img.setAttribute('class', 'svg-img');
+flexelementnode4img.setAttribute('src', '../icons/icons8-truck-50.png');
+flexelementnode4a.appendChild(flexelementnode4img);
+
 var flexelementnode4p=document.createElement('p');
 flexelementnode4p.setAttribute('class', 'vehicle-category-label');
 var flextextnode4p=document.createTextNode('TRUCK & BUS');
 flexelementnode4p.appendChild(flextextnode4p);
 flexelementnode4a.appendChild(flexelementnode4p);
+
 
 
 
@@ -141,12 +151,16 @@ flexelementnode5a.setAttribute('class', 'vehicle-category');
 flexelementnode5a.setAttribute('href', 'https://www.apollotyres.com/en-in/industrial-tyres/');
 flexelementnode5.appendChild(flexelementnode5a);
 
+var flexelementnode5img=document.createElement('img');
+flexelementnode5img.setAttribute('class', 'svg-img');
+flexelementnode5img.setAttribute('src', '../icons/icons8-factory-50.png');
+flexelementnode5a.appendChild(flexelementnode5img);
+
 var flexelementnode5p=document.createElement('p');
 flexelementnode5p.setAttribute('class', 'vehicle-category-label');
 var flextextnode5p=document.createTextNode('INDUSTRIAL');
 flexelementnode5p.appendChild(flextextnode5p);
 flexelementnode5a.appendChild(flexelementnode5p);
-
 
 
 
@@ -163,6 +177,11 @@ var flexelementnode6a=document.createElement('a');
 flexelementnode6a.setAttribute('class', 'vehicle-category');
 flexelementnode6a.setAttribute('href', 'https://www.apollotyres.com/en-in/earthmover-tyres/');
 flexelementnode6.appendChild(flexelementnode6a);
+
+var flexelementnode6img=document.createElement('img');
+flexelementnode6img.setAttribute('class', 'svg-img');
+flexelementnode6img.setAttribute('src', '../icons/icons8-bulldozer-50.png');
+flexelementnode6a.appendChild(flexelementnode6img);
 
 var flexelementnode6p=document.createElement('p');
 flexelementnode6p.setAttribute('class', 'vehicle-category-label');

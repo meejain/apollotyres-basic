@@ -89,6 +89,7 @@ main .hero img {
   margin-left:10px;
   margin-right:20px;
   font-size: medium;
+  position:relative;
 }
 
 
